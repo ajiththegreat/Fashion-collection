@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+.top{
+    font-size: 14px;
+    background-color: rgb(161, 47, 47);
+    /* display: inline-block; */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+.to-bar3{
+    display: flex
+}
+.nav-link {
+    font-size: 16px;
+    color: #333 !important;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    color: orangered;
+    margin-bottom: 0;
+    padding: 100px 0;
+}
+
+.hero-section .display-4 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn-outline-dark {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.middle-bar {
+    font-size: 14px;
+}
+
+.middle-bar input {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.middle-bar .btn-light {
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #555;
+}
+
+.btn-outline-dark {
+    background-color: transparent;
+    border-color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.season-sale {
+    background-color: #333;
+    color: #fff;
+}
+
+.season-sale h2, .season-sale h3 {
+    margin: 0;
+}
+
+.container .text-center {
+    text-align: center;
+}
+
+.btn-outline-dark + .btn-outline-dark {
+    margin-left: 10px;
+}
+
+.container .bg-light {
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
